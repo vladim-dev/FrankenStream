@@ -1,0 +1,18 @@
+# Настройки сервера
+paths:
+  all:
+    # Разрешаем публиковать потоки (для OBS)
+    allowPublishing: yes
+    
+  mystream:
+    # Настройки для твоего конкретного пути
+    source: publisher
+    
+    # ПАРОЛИ (пропиши их здесь)
+    # Кто может транслировать (ты)
+    publishUser: admin
+    publishPass: 12345678
+    
+    # Кто может смотреть (друзья)
+    readUser: friend
+    readPass: friendpass123
